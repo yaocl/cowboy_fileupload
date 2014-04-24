@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>file upload example</title>
+</head>
+<body>
+
+<form id="uploadForm1" action="/upload" method="POST" enctype='multipart/form-data'>
+	<h1>Upload Form 1</h1>
+	file: <input type='file' name='file1' /><br/>
+	<input type='submit' />
+</form>
+<br/><br/><br/>
+
+<form id="uploadForm2" action="/upload" method="POST" enctype="multipart/form-data">
+	<h1>Upload Form 2</h1>
+	description 2: <input type="text" id="desc2" name="desc2" /><br/>
+	file 2: <input type="file" name="file2" /><br/>
+	<button type="submit">Submit</button>
+</form>
+<br/><br/><br/>
+
+<form id="uploadForm3" action="/upload" method="POST" enctype="multipart/form-data">
+	<h1>Upload Form 3</h1>
+	description 3.1: <input type="text" id="desc3_1" name="desc3_1" /><br/>
+	file 3.1: <input type="file" name="file3_1" /><br/>
+	description 3.2: <input type="text" id="desc3_2" name="desc3_2"><br>
+	file 3.2: <input type="file" name="file3_2" /><br/>
+	<button type="submit">Submit</button>
+</form>
+<br/><br/><br/>
+
+</body>
+</html>

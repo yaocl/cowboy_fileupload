@@ -1,0 +1,14 @@
+{application, upload, [
+	{description, "File Upload Example"},
+	{vsn, "1"},
+	{modules, []},
+	{registered, [upload_sup]},
+	{applications, [
+		kernel,
+		stdlib,
+		cowboy
+	]},
+	{mod, {upload_app, []}},
+	{env, []}
+]}.
+

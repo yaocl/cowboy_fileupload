@@ -1,6 +1,10 @@
 .eunit
 deps
+_rel
+ebin
 *.o
 *.beam
 *.plt
+.erlang.mk*
+relx
 erl_crash.dump
