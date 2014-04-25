@@ -6,7 +6,7 @@ This sample project provides a http file upload sample.
 
 Reference to the user guide [cowboy multipart request manual](https://github.com/extend/cowboy/blob/master/guide/multipart_req.md) in cowboy master branch.
 
-# Compile and Run
+# build and run
 
 This sample followed up cowboy sample project packaging rules.
 
@@ -19,7 +19,7 @@ This sample followed up cowboy sample project packaging rules.
 	```
 	> make
 	```
-	It will get the dependent projects including cowboy, cowlib, ranch and the tool relx.
+	It will get the dependent projects including cowboy, cowlib, ranch and the tool: relx.
 
 3. run
 	```
@@ -27,4 +27,5 @@ This sample followed up cowboy sample project packaging rules.
 	```
 
 4. testing
-	browse the web page http://localhost:8000/
+	
+	Browse the web page http://localhost:8000/
